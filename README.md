@@ -8,7 +8,7 @@
 
 ## DESCRIPTION 
 
-![](https://github.com/JoySeeDog/JSDSDKDemo/blob/master/sdk.png)
+![](https://github.com/JoySeeDog/JSDDevelopDemo/blob/master/iOS.png)
 
  * This demo provides a project structure to develop iOS app well
  * build in xcode8 with ARC.
