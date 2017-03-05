@@ -6,16 +6,25 @@
 //  Copyright © 2017 JoySeeDog. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "JSDRootViewController.h"
+#import "JSDTestSDK.h"
 
-@interface ViewController ()
+@interface JSDRootViewController ()
 
 @end
 
-@implementation ViewController
+@implementation JSDRootViewController
 
 - (void)viewDidLoad {
+    
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor whiteColor];
+    
+    JSDTestSDK *testSDK = [[JSDTestSDK alloc] init];
+    [testSDK showSDKInfo];
+    
+    
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 

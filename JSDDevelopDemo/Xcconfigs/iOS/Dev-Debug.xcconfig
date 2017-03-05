@@ -1,0 +1,22 @@
+//
+// This file defines additional configuration options that are appropriate only
+// for an application on iOS. This should be set at the target level for each
+// project configuration.
+//
+
+// Import base application settings
+#include "../Base/Targets/Application.xcconfig"
+
+// Apply common settings specific to iOS
+#include "iOS-Base.xcconfig"
+
+
+//:configuration = Debug
+HEADER_SEARCH_PATHS = $(inherited) $(PROJECT_DIR)/JSDDevelopDemo/TestSDK/Debug
+
+//:configuration = Debug
+LIBRARY_SEARCH_PATHS = $(inherited) $(PROJECT_DIR)/JSDDevelopDemo/TestSDK/Debug
+
+OTHER_LDFLAGS = $(inherited) -L" $(PROJECT_DIR)/JSDDevelopDemo/TestSDK/Debug" -lTestSDK
+
+// OTHER_LDFLAGS = $(inherited) -ObjC -framework CoreTelephony -framework CoreData -framework UIKit -framework Foundation -framework QuartzCore -framework CoreText -framework CoreImage -framework CoreGraphics -framework StoreKit -framework CoreFoundation -framework Accelerate -framework ImageIO -framework SystemConfiguration -framework TencentOpenAPI -framework Security -framework AssetsLibrary -framework MobileCoreServices -framework IJKMediaFramework -framework UMSocialCore -framework UMSocialNetwork -framework UMMobClick -lstdc++ -lsqlite3 -licucore -lz -L"$(SRCROOT)/LiveShow/Vender/protobuf-3.0/lib" -lprotobuf -L"$(SRCROOT)/LiveShow/Vender/LiveStreaming/VideoCore/Release" -lVideoCore -L"$(SRCROOT)/LiveShow/Vender/RSA" -lcryptopp -L"$(SRCROOT)/LiveShow/Vender/UMSocial_Sdk_6.1.1/SocialLibraries/Sina" -lSocialSina -L"$(SRCROOT)/LiveShow/Vender/UMSocial_Sdk_6.1.1/SocialLibraries/Sina" -lWeiboSDK -L"$(SRCROOT)/LiveShow/Vender/UMSocial_Sdk_6.1.1/SocialLibraries/QQ" -lSocialQQ -L"$(SRCROOT)/LiveShow/Vender/UMSocial_Sdk_6.1.1/SocialLibraries/WeChat" -lSocialWeChat -L"$(SRCROOT)/LiveShow/Vender/UMSocial_Sdk_6.1.1/SocialLibraries/WeChat" -lWeChatSDK -L"$(SRCROOT)/LiveShow/Vender/WCS" -lWCS -L"$(SRCROOT)/LiveShow/Vender/UMessage_Sdk_1.4.0" -lUMessage_Sdk_1.4.0 -L"$(SRCROOT)/LiveShow/Vender/LHAnalysis" -lLaoHuAnalysis
