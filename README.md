@@ -11,13 +11,13 @@
  * build in xcode8 with ARC.
 
 
-##LICENSE
+## LICENSE
 Distributed under the MIT License.
 
-##Contributions
+## Contributions
 Any contribution is more than welcome! You can contribute through pull requests and issues on GitHub.
 
-#Author
+# Author
 
 Contact me on my email: joyseedog@gmail.com
 
