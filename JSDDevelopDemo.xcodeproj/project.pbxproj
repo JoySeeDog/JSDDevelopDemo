@@ -43,6 +43,7 @@
 		CF74F8B41E52FFE200D5B899 /* iOS-Application.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = CF74F89D1E52FFE200D5B899 /* iOS-Application.xcconfig */; };
 		CF74F8B51E52FFE200D5B899 /* iOS-Base.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = CF74F89E1E52FFE200D5B899 /* iOS-Base.xcconfig */; };
 		CF74F8B61E52FFE200D5B899 /* iOS-Base.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = CF74F89E1E52FFE200D5B899 /* iOS-Base.xcconfig */; };
+		F5A3F3831E908B6F00EDECE7 /* JSDDevelopDemo-Dist-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F5A3F3821E908B6F00EDECE7 /* JSDDevelopDemo-Dist-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,7 +80,6 @@
 		CF74F7F91E52B98600D5B899 /* JSDDevelopDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSDDevelopDemoUITests.m; sourceTree = "<group>"; };
 		CF74F7FB1E52B98600D5B899 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF74F8141E52B9C200D5B899 /* JSDDevelopDemo-Dist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JSDDevelopDemo-Dist.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF74F8151E52B9C300D5B899 /* JSDDevelopDemo-Dist-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "JSDDevelopDemo-Dist-Info.plist"; path = "/Users/jianquan/Xcode/JSDDevelopDemo/JSDDevelopDemo-Dist-Info.plist"; sourceTree = "<absolute>"; };
 		CF74F8901E52FFE200D5B899 /* Common.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Common.xcconfig; sourceTree = "<group>"; };
 		CF74F8921E52FFE200D5B899 /* Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
 		CF74F8931E52FFE200D5B899 /* Profile.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Profile.xcconfig; sourceTree = "<group>"; };
@@ -96,6 +96,7 @@
 		CF74F8C11E530A4100D5B899 /* libTestSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestSDK.a; sourceTree = "<group>"; };
 		CF74F8C31E530A4100D5B899 /* JSDTestSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSDTestSDK.h; sourceTree = "<group>"; };
 		CF74F8C41E530A4100D5B899 /* libTestSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestSDK.a; sourceTree = "<group>"; };
+		F5A3F3821E908B6F00EDECE7 /* JSDDevelopDemo-Dist-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "JSDDevelopDemo-Dist-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -277,8 +278,8 @@
 		CF74F8211E52EC0A00D5B899 /* Plist */ = {
 			isa = PBXGroup;
 			children = (
+				F5A3F3821E908B6F00EDECE7 /* JSDDevelopDemo-Dist-Info.plist */,
 				CF74F7E51E52B98500D5B899 /* JSDDevelopDemo-Dev-Info.plist */,
-				CF74F8151E52B9C300D5B899 /* JSDDevelopDemo-Dist-Info.plist */,
 			);
 			name = Plist;
 			sourceTree = "<group>";
@@ -581,6 +582,7 @@
 				CF74F7E41E52B98500D5B899 /* LaunchScreen.storyboard in Resources */,
 				CF74F8A51E52FFE200D5B899 /* Release.xcconfig in Resources */,
 				CF74F7E11E52B98500D5B899 /* Assets.xcassets in Resources */,
+				F5A3F3831E908B6F00EDECE7 /* JSDDevelopDemo-Dist-Info.plist in Resources */,
 				CF74F89F1E52FFE200D5B899 /* Common.xcconfig in Resources */,
 				CF74F8A31E52FFE200D5B899 /* Profile.xcconfig in Resources */,
 				CF74F8A91E52FFE200D5B899 /* Application.xcconfig in Resources */,
