@@ -1,7 +1,7 @@
 # JSDDevelopDemo
 
 [![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)]
-(https://github.com/JoySeeDog/JSDDevelopDemo/blob/master/LICENSE)&nbsp; [![China 中文文档](https://img.shields.io/badge/China-%E4%B8%AD%E6%96%87%E6%96%87%E6%A1%A3-blue.svg)](http://www.jianshu.com/u/93254f32c54f)&nbsp;
+ (https://github.com/JoySeeDog/JSDDevelopDemo/blob/master/LICENSE)&nbsp; [![China 中文文档](https://img.shields.io/badge/China-%E4%B8%AD%E6%96%87%E6%96%87%E6%A1%A3-blue.svg)](http://www.jianshu.com/u/93254f32c54f)&nbsp;
 
 
 
